@@ -1,0 +1,88 @@
+:root {
+    --main-color: #4CAF50;
+    --text-color: #333;
+    --background-color: #f9f9f9;
+    --button-hover-color: #45a049;
+    --font-family: 'Arial', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+}
+
+.profile-img {
+    border-radius: 0;
+    height: auto;
+    width: 200px;
+    object-fit: cover;
+}
+
+.info {
+    padding: 20px;
+    flex: 1;
+}
+
+.info h2 {
+    color: var(--main-color);
+    margin: 0;
+}
+
+.info .occupation {
+    color: var(--text-color);
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.info .description {
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.contact-btn {
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: var(--button-hover-color);
+}
+
+@media (max-width: 600px) {
+    .card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .info {
+        padding: 15px;
+    }
+}
