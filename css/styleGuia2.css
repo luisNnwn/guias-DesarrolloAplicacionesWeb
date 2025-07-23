@@ -17,6 +17,9 @@ body {
     height: 100vh;
 }
 
+
+
+
 .card {
     display: flex;
     flex-direction: row;
