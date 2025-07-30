@@ -1,0 +1,62 @@
+/* ====== ESTILOS GENERALES ====== */
+body {
+  background-color: #f4f4f4; /* Fondo claro para que no se vea tan feo */
+  font-family: Arial, sans-serif; /* Fuente estándar */
+  text-align: center; /* Centrar todo el contenido */
+  padding: 50px; /* Espaciado interno */
+}
+
+/* ====== TÍTULO PRINCIPAL ====== */
+h1 {
+  color: #2c3e50; /* Color oscuro elegante */
+}
+
+/* ====== MENSAJE PRINCIPAL ====== */
+#mensaje {
+  color: #34495e; /* Color base del texto */
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+/* ====== SALUDO PERSONALIZADO ====== */
+#saludo {
+  font-size: 24px; /* Más grande para resaltar */
+  font-weight: bold; /* Negrita para importancia */
+  color: #27ae60; /* Verde positivo */
+  margin-top: 20px;
+}
+
+/* ====== CAMPOS DE TEXTO ====== */
+input {
+  padding: 10px; /* Espacio interno cómodo */
+  margin: 10px;
+}
+
+/* ====== BOTONES ====== */
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #3498db; /* Azul base */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+/* ====== EFECTO HOVER (PASAR EL MOUSE) ====== */
+button:hover {
+  background-color: #2980b9; /* Azul más oscuro al pasar el mouse */
+}
+
+/* ====== ADVERTENCIA DE ERROR ====== */
+#advertencia {
+  color: red;
+  font-weight: bold;
+  display: none; /* Oculta hasta que sea necesario */
+}
+
+/* ====== IMAGEN ====== */
+img {
+  margin-top: 20px;
+  width: 200px;
+}

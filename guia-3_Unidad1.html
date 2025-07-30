@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Interactiva</title>
+  <!-- ENLAZAMOS EL CSS EXTERNO -->
+  <link rel="stylesheet" href="./css/styleGuia3.css">
+</head>
+<body>
+    <div class="navegacion">
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li>
+                    Guías Unidad 1
+                    <ul>
+                        <li><a href="guia-1_Unidad1.html">Guía 1</a></li>
+                        <li><a href="guia-2_Unidad1.html">Guía 2</a></li>
+                        <li><a href="guia-3_Unidad1.html">Guía 2</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+  <h1>¡Bienvenido a la Página Interactiva!</h1>
+
+  <!-- MENSAJE QUE SE PUEDE CAMBIAR -->
+  <p id="mensaje">Este es un mensaje inicial.</p>
+  <button id="btnCambiar">Cambiar Mensaje</button>
+  <br><br>
+  
+  <!-- CAMPO PARA INGRESAR NOMBRE Y MOSTRAR SALUDO -->
+  <input type="text" id="nombre" placeholder="Escribí tu nombre">
+  <button id="btnSaludar">Saludar</button>
+  <p id="advertencia">⚠ Tenés que ingresar un nombre primero</p>
+  <p id="saludo"></p>
+
+  <!-- BOTÓN PARA RESTABLECER -->
+  <button id="btnRestablecer">Restablecer</button>
+  <br><br>
+
+  <!-- IMAGEN CON BOTÓN PARA OCULTAR/MOSTRAR -->
+  <img id="imagen" src="https://placekitten.com/300/200" alt="Imagen de ejemplo">
+  <br>
+  <button id="btnImagen">Mostrar/Ocultar Imagen</button>
+
+  <!-- ENLAZAMOS EL JS EXTERNO -->
+  <script src="script_guia3.js"></script>
+</body>
+</html>
